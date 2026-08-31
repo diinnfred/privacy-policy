@@ -1,286 +1,568 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Privacy Policy for BX LiveScore by BxFootball"
-    />
-    <title>Privacy Policy | BX LiveScore</title>
-    <style>
-      :root {
-        --bg: #f2f5f9;
-        --surface: #ffffff;
-        --text: #1c2533;
-        --muted: #5a6678;
-        --primary: #0f7bff;
-        --primary-soft: #e6f1ff;
-        --border: #d9e2ef;
-        --shadow: 0 14px 40px rgba(28, 37, 51, 0.08);
-      }
 
-      * {
-        box-sizing: border-box;
-      }
+```
+<meta
+  name="description"
+  content="Privacy Policy for x1live, provided by BxFootball. Learn how x1live collects, uses, protects, and manages user information."
+/>
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0f7bff" />
 
-      body {
-        margin: 0;
-        font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
-        color: var(--text);
-        background:
-          radial-gradient(circle at top right, #e7f1ff 0%, transparent 40%),
-          linear-gradient(180deg, #f7fbff 0%, var(--bg) 60%);
-        line-height: 1.6;
-      }
+<title>Privacy Policy | x1live</title>
 
-      .wrap {
-        max-width: 920px;
-        margin: 0 auto;
-        padding: 40px 20px 56px;
-      }
+<style>
+  :root {
+    --bg: #f3f6fa;
+    --surface: #ffffff;
+    --text: #182230;
+    --muted: #667085;
+    --primary: #0f7bff;
+    --primary-dark: #0864d6;
+    --primary-soft: #eaf3ff;
+    --border: #e2e8f0;
+    --shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+  }
 
-      .card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: 18px;
-        box-shadow: var(--shadow);
-        overflow: hidden;
-      }
+  * {
+    box-sizing: border-box;
+  }
 
-      .hero {
-        padding: 36px 30px 28px;
-        background: linear-gradient(135deg, #0f7bff 0%, #00a6ff 100%);
-        color: #fff;
-      }
+  html {
+    scroll-behavior: smooth;
+  }
 
-      .badge {
-        display: inline-block;
-        padding: 6px 12px;
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.2);
-        font-size: 12px;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        font-weight: 600;
-      }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family:
+      "Segoe UI",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Helvetica Neue",
+      Arial,
+      sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(
+        circle at top right,
+        rgba(15, 123, 255, 0.12) 0%,
+        transparent 35%
+      ),
+      linear-gradient(180deg, #f8fbff 0%, var(--bg) 60%);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
 
-      h1 {
-        margin: 14px 0 8px;
-        font-size: clamp(1.7rem, 3.8vw, 2.4rem);
-        line-height: 1.2;
-      }
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 48px 20px 64px;
+  }
 
-      .intro {
-        margin: 0;
-        max-width: 700px;
-        color: rgba(255, 255, 255, 0.94);
-      }
+  .policy-card {
+    overflow: hidden;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+  }
 
-      .content {
-        padding: 30px;
-      }
+  .hero {
+    padding: 44px 36px 36px;
+    color: #ffffff;
+    background:
+      radial-gradient(
+        circle at top right,
+        rgba(255, 255, 255, 0.18),
+        transparent 38%
+      ),
+      linear-gradient(135deg, #0864d6 0%, #0f7bff 55%, #00a6ff 100%);
+  }
 
-      h2 {
-        margin: 26px 0 10px;
-        font-size: 1.2rem;
-      }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 13px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
 
-      h2:first-child {
-        margin-top: 0;
-      }
+  h1 {
+    margin: 16px 0 10px;
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+  }
 
-      p {
-        margin: 0 0 12px;
-      }
+  .hero-description {
+    max-width: 720px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1rem;
+  }
 
-      ul {
-        margin: 0 0 14px 18px;
-        padding: 0;
-      }
+  .content {
+    padding: 38px 36px 40px;
+  }
 
-      li {
-        margin-bottom: 7px;
-      }
+  .content > p:first-child {
+    font-size: 1.02rem;
+  }
 
-      .note {
-        padding: 12px 14px;
-        background: var(--primary-soft);
-        border-left: 4px solid var(--primary);
-        border-radius: 8px;
-      }
+  h2 {
+    margin: 34px 0 12px;
+    color: var(--text);
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
 
-      .footer {
-        margin-top: 24px;
-        padding-top: 18px;
-        border-top: 1px solid var(--border);
-        color: var(--muted);
-        font-size: 0.95rem;
-      }
+  h2:first-of-type {
+    margin-top: 30px;
+  }
 
-      a {
-        color: var(--primary);
-        text-decoration: none;
-      }
+  p {
+    margin: 0 0 14px;
+  }
 
-      a:hover {
-        text-decoration: underline;
-      }
+  ul {
+    margin: 8px 0 18px 22px;
+    padding: 0;
+  }
 
-      @media (max-width: 640px) {
-        .hero,
-        .content {
-          padding: 22px 18px;
-        }
+  li {
+    margin-bottom: 8px;
+    padding-left: 3px;
+  }
 
-        .wrap {
-          padding: 18px 12px 28px;
-        }
-      }
-    </style>
+  strong {
+    font-weight: 650;
+  }
+
+  a {
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+
+  a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+  }
+
+  .note {
+    margin: 18px 0;
+    padding: 15px 17px;
+    background: var(--primary-soft);
+    border: 1px solid #d5e8ff;
+    border-left: 4px solid var(--primary);
+    border-radius: 10px;
+  }
+
+  .contact-box {
+    margin-top: 16px;
+    padding: 18px 20px;
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+
+  .contact-row {
+    margin: 5px 0;
+  }
+
+  .footer {
+    margin-top: 36px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+
+  .footer p {
+    margin: 4px 0;
+  }
+
+  @media (max-width: 640px) {
+    .wrapper {
+      padding: 18px 12px 30px;
+    }
+
+    .policy-card {
+      border-radius: 14px;
+    }
+
+    .hero {
+      padding: 30px 20px 26px;
+    }
+
+    .content {
+      padding: 26px 20px 30px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 1.18rem;
+    }
+
+    .contact-box {
+      padding: 15px 16px;
+    }
+  }
+</style>
+```
+
   </head>
+
   <body>
-    <main class="wrap">
-      <article class="card">
+    <main class="wrapper">
+      <article class="policy-card">
         <header class="hero">
-          <span class="badge">BX LiveScore App</span>
-          <h1>Privacy Policy</h1>
-          <p class="intro">
-            This Privacy Policy explains how your information is handled when using
-            <strong>BX LiveScore</strong>, provided by
-            <strong>BxFootball</strong>.
-          </p>
-        </header>
+          <span class="badge">x1live</span>
 
-        <section class="content">
-          <p>
-            BxFootball built the BX LiveScore app as a free app. This service is provided by
-            BxFootball at no cost and is intended for use as is.
-          </p>
-          <p>
-            By using this service, you agree to the collection and use of information in accordance with this
-            policy. The personal information we collect is used solely to provide and improve the service. Your
-            information will not be used or shared with anyone except as described in this Privacy Policy.
-          </p>
-          <p>
-            The terms used in this Privacy Policy have the same meanings as those in our Terms and Conditions,
-            which are accessible in the BX LiveScore app, unless otherwise defined here.
-          </p>
+```
+      <h1>Privacy Policy</h1>
 
-          <h2>Information Collection and Use</h2>
-          <p>
-            We do not collect any personal information unless you choose to log in or create an account to access
-            features such as chat, profile, or personalized tips.
-          </p>
-          <p>
-            If you decide to use these features, we may require you to provide certain personally identifiable
-            information, which may include:
-          </p>
-          <ul>
-            <li>Google Account information (name and email) when logging in via Google Sign-In.</li>
-            <li>Access to device gallery for selecting or updating profile images.</li>
-            <li>Access to device camera for capturing and updating profile images.</li>
-          </ul>
-          <p>
-            This information is collected and used solely for providing, securing, and improving user accounts,
-            chat, and profile functionalities.
-          </p>
-          <p>
-            You can use the app’s basic features (such as live scores and match updates) without logging in or
-            providing any personal information.
-          </p>
+      <p class="hero-description">
+        This Privacy Policy explains how information is collected, used,
+        protected, and managed when you use <strong>x1live</strong>, a mobile
+        application provided by <strong>BxFootball</strong>.
+      </p>
+    </header>
 
-          <h2>Permissions</h2>
-          <ul>
-            <li>Google Sign-In is used for authentication only.</li>
-            <li>Camera and gallery permissions are requested only when updating your profile image.</li>
-            <li>
-              Push notification permission is used only to send live alerts and instant alerts for upcoming and
-              live matches.
-            </li>
-            <li>You may revoke these permissions at any time through your device settings.</li>
-          </ul>
+    <section class="content">
+      <p>
+        BxFootball provides the <strong>x1live</strong> mobile application.
+        This Privacy Policy is intended to inform users about our policies
+        regarding the collection, use, and disclosure of information when
+        using our service.
+      </p>
 
-          <h2>Third-Party Services</h2>
-          <p>
-            The app uses third-party services that may collect limited information used to identify you or improve
-            the service experience. These include:
-          </p>
-          <ul>
-            <li>Google Play Services</li>
-            <li>Google Sign-In and Firebase Authentication</li>
-            <li>AppsFlyer (for analytics; no advertising ID or sensitive device data is collected)</li>
-          </ul>
-          <p>We do not sell, trade, or rent users’ personal identification information to others.</p>
+      <p>
+        By using x1live, you acknowledge the practices described in this
+        Privacy Policy. Any personal information collected through the app is
+        used only as necessary to provide, maintain, secure, and improve the
+        service, except where otherwise described in this policy or required
+        by law.
+      </p>
 
-          <h2>Account Deletion and Data Removal</h2>
-          <p>
-            If you have created an account, you may request deletion of your account and all associated data at
-            any time. Upon deletion:
-          </p>
-          <ul>
-            <li>Your personal information will be permanently removed from our databases.</li>
-            <li>Your profile and any uploaded content will be erased.</li>
-            <li>Your authentication credentials will be securely deleted.</li>
-          </ul>
-          <p>
-            To delete your account, use the “Delete Account” option in the app settings. Once deleted, this process
-            is irreversible.
-          </p>
+      <h2>1. Information Collection and Use</h2>
 
-          <h2>Security</h2>
-          <p>
-            We value your trust in providing your personal information. To protect your data, we use industry-standard
-            security measures, including:
-          </p>
-          <ul>
-            <li>Data encryption during transmission</li>
-            <li>Secure password storage</li>
-            <li>Limited access to personal data</li>
-          </ul>
-          <p>
-            While we strive to use commercially acceptable means to protect your information, no method of
-            transmission over the Internet or electronic storage is 100% secure.
-          </p>
+      <p>
+        Most basic x1live features can be accessed without creating an
+        account. However, certain features, including personalized features,
+        profile functionality, favorites, community features, and other
+        account-based services, may require you to sign in.
+      </p>
 
-          <h2>Children’s Privacy</h2>
-          <p><strong>Age Restriction:</strong> This app is intended for users aged 18 and older.</p>
-          <ul>
-            <li>We do not knowingly collect personal information from anyone under 18.</li>
-            <li>
-              If we learn that we have collected personal data from a user under 18, we will immediately delete that
-              data from our servers.
-            </li>
-            <li>
-              If you are a parent or guardian and believe your child has provided us with personal information,
-              please contact us immediately so that we can take appropriate action.
-            </li>
-          </ul>
-          <p class="note">
-            This policy complies with applicable privacy laws and regulations, including the Children’s Online
-            Privacy Protection Act (COPPA) and similar global data protection standards.
-          </p>
+      <p>
+        Depending on the features you choose to use, we may process certain
+        information, including:
+      </p>
 
-          <h2>Changes to This Policy</h2>
-          <p>We may update our Privacy Policy from time to time. You will be notified of any changes by:</p>
-          <ul>
-            <li>Posting the new Privacy Policy on this page</li>
-            <li>Displaying a notice within the mobile app</li>
-          </ul>
-          <p>Changes are effective immediately once posted.</p>
+      <ul>
+        <li>
+          Account information such as your name and email address when using
+          supported authentication services.
+        </li>
 
-          <h2>Contact Us</h2>
-          <p>
-            If you have any questions, concerns, or suggestions about this Privacy Policy, contact us at:
-            <a href="mailto:bxfootball7@gmail.com">bxfootball7@gmail.com</a>
-          </p>
+        <li>
+          Profile information that you voluntarily provide or update within
+          the application.
+        </li>
 
-          <div class="footer">
-            <p>Last updated: March 5, 2026</p>
-            <p>© 2026 BxFootball. All rights reserved.</p>
-          </div>
-        </section>
-      </article>
-    </main>
+        <li>
+          Images you choose to upload or capture for use as your profile
+          image.
+        </li>
+
+        <li>
+          Information necessary to provide app functionality such as
+          favorites, preferences, community features, and notifications.
+        </li>
+      </ul>
+
+      <p>
+        We use this information only for legitimate app functionality,
+        authentication, security, personalization, support, and service
+        improvement.
+      </p>
+
+      <h2>2. Device Permissions</h2>
+
+      <p>
+        x1live may request certain device permissions when they are necessary
+        for a specific feature.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Camera:</strong> May be requested when you choose to capture
+          a new profile image.
+        </li>
+
+        <li>
+          <strong>Photos or Gallery:</strong> May be requested when you choose
+          an existing image from your device for your profile.
+        </li>
+
+        <li>
+          <strong>Notifications:</strong> May be requested to deliver match
+          updates, live alerts, upcoming match notifications, and other
+          relevant app notifications.
+        </li>
+      </ul>
+
+      <p>
+        Permissions are requested only when required by the relevant
+        functionality. You can manage or revoke app permissions at any time
+        through your device settings. Disabling a permission may prevent the
+        related feature from functioning correctly.
+      </p>
+
+      <h2>3. Authentication</h2>
+
+      <p>
+        x1live may provide third-party authentication methods such as Google
+        Sign-In or other supported account providers.
+      </p>
+
+      <p>
+        When you use a third-party authentication provider, certain account
+        information may be provided to us according to the permissions you
+        approve and the privacy policies of that provider.
+      </p>
+
+      <p>
+        Authentication information is used to create, identify, secure, and
+        manage your x1live account.
+      </p>
+
+      <h2>4. Third-Party Services</h2>
+
+      <p>
+        x1live may use third-party services to provide authentication,
+        notifications, analytics, app functionality, and performance
+        monitoring.
+      </p>
+
+      <p>These services may include:</p>
+
+      <ul>
+        <li>Google Play Services</li>
+        <li>Google Sign-In</li>
+        <li>Firebase Authentication and related Firebase services</li>
+        <li>AppsFlyer for app analytics and attribution</li>
+      </ul>
+
+      <p>
+        Third-party providers may process limited technical or usage
+        information in accordance with their own privacy policies and the
+        permissions available on your device.
+      </p>
+
+      <p>
+        BxFootball does not sell or rent your personal information to third
+        parties.
+      </p>
+
+      <h2>5. Analytics and Service Improvement</h2>
+
+      <p>
+        We may use analytics services to understand how users interact with
+        x1live, identify technical problems, measure app performance, and
+        improve the overall user experience.
+      </p>
+
+      <p>
+        Analytics information may include general app usage, application
+        events, device or platform information, and diagnostic information,
+        depending on the analytics services enabled in the application.
+      </p>
+
+      <h2>6. Account Deletion and Data Removal</h2>
+
+      <p>
+        Users who have created an account may request deletion of their
+        account and associated personal data.
+      </p>
+
+      <p>
+        You can initiate account deletion using the
+        <strong>Delete Account</strong> option available within the x1live
+        application.
+      </p>
+
+      <p>When an account deletion request is completed:</p>
+
+      <ul>
+        <li>
+          Personal account information associated with the account will be
+          deleted or anonymized as applicable.
+        </li>
+
+        <li>
+          Profile information and uploaded profile content associated with
+          the account will be removed.
+        </li>
+
+        <li>
+          Authentication access associated with the deleted account will be
+          revoked or removed as applicable.
+        </li>
+      </ul>
+
+      <p>
+        Certain information may be retained where necessary to comply with
+        legal obligations, prevent fraud or abuse, resolve disputes, or
+        enforce applicable agreements.
+      </p>
+
+      <p class="note">
+        Account deletion is permanent. Once your account and eligible
+        associated data have been deleted, they may not be recoverable.
+      </p>
+
+      <h2>7. Data Security</h2>
+
+      <p>
+        We take reasonable administrative and technical measures designed to
+        protect personal information against unauthorized access, loss,
+        misuse, alteration, or disclosure.
+      </p>
+
+      <p>These measures may include:</p>
+
+      <ul>
+        <li>Encrypted network communication where applicable</li>
+        <li>Secure authentication mechanisms</li>
+        <li>Restricted access to personal information</li>
+        <li>Security monitoring and appropriate technical safeguards</li>
+      </ul>
+
+      <p>
+        However, no method of transmission over the Internet or electronic
+        storage system can be guaranteed to be completely secure. Therefore,
+        we cannot guarantee absolute security of information.
+      </p>
+
+      <h2>8. Data Retention</h2>
+
+      <p>
+        We retain personal information only for as long as reasonably
+        necessary to provide the service, maintain your account, fulfill the
+        purposes described in this Privacy Policy, or comply with applicable
+        legal and regulatory requirements.
+      </p>
+
+      <p>
+        When information is no longer required, we may delete or anonymize it
+        in accordance with our data retention practices.
+      </p>
+
+      <h2>9. Children's Privacy</h2>
+
+      <p>
+        <strong>x1live is intended for users aged 18 years and older.</strong>
+      </p>
+
+      <p>
+        We do not knowingly collect personal information from children under
+        the age of 18. If we become aware that personal information has been
+        collected from a person under 18, we will take reasonable steps to
+        remove that information.
+      </p>
+
+      <p>
+        If you are a parent or legal guardian and believe that a minor has
+        provided personal information through x1live, please contact us using
+        the contact information below.
+      </p>
+
+      <h2>10. Your Privacy Choices</h2>
+
+      <p>
+        Depending on your location and applicable law, you may have certain
+        rights regarding your personal information, including the ability to
+        request access, correction, or deletion of your information.
+      </p>
+
+      <p>
+        You can also control certain privacy-related functionality through
+        your device settings, including camera, photo, and notification
+        permissions.
+      </p>
+
+      <h2>11. Changes to This Privacy Policy</h2>
+
+      <p>
+        We may update this Privacy Policy periodically to reflect changes to
+        x1live, our data practices, third-party services, or applicable legal
+        requirements.
+      </p>
+
+      <p>
+        When this policy is updated, the revised version will be published on
+        this page and the "Last updated" date will be changed accordingly.
+        Where appropriate, we may also provide notice within the application.
+      </p>
+
+      <p>
+        We encourage users to review this Privacy Policy periodically to stay
+        informed about how information is handled.
+      </p>
+
+      <h2>12. Contact Us</h2>
+
+      <p>
+        If you have questions, concerns, or requests regarding this Privacy
+        Policy or your personal information, you can contact BxFootball using
+        the following details:
+      </p>
+
+      <div class="contact-box">
+        <p class="contact-row">
+          <strong>Developer:</strong> BxFootball
+        </p>
+
+        <p class="contact-row">
+          <strong>Application:</strong> x1live
+        </p>
+
+        <p class="contact-row">
+          <strong>Email:</strong>
+          <a href="mailto:hahaxi81@gmail.com">hahaxi81@gmail.com</a>
+        </p>
+
+        <p class="contact-row">
+          <strong>Phone:</strong>
+          <a href="tel:+971506206594">+971 50 620 6594</a>
+        </p>
+      </div>
+
+      <footer class="footer">
+        <p><strong>Last updated:</strong> August 31, 2026</p>
+        <p>© 2026 BxFootball. All rights reserved.</p>
+      </footer>
+    </section>
+  </article>
+</main>
+```
+
   </body>
 </html>
